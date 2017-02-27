@@ -1,0 +1,20 @@
+PODS:
+  - KeychainItemWrapper (1.2)
+  - LAClient (1.0.1):
+    - KeychainItemWrapper
+
+DEPENDENCIES:
+  - KeychainItemWrapper
+  - LAClient (from `../`)
+
+EXTERNAL SOURCES:
+  LAClient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KeychainItemWrapper: 67a240172ed669842bc6bc13ed554dcd50469fa2
+  LAClient: b2d62fcca9d7491a1763a1911e1ae73492563de2
+
+PODFILE CHECKSUM: a87c6d6e68d9760f3a925578db03aae87890d512
+
+COCOAPODS: 1.1.0.beta.1
