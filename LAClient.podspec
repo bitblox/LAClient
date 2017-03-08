@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LAClient"
-  s.version      = "1.0.11"
+  s.version      = "1.1.0"
   s.summary      = "A Light API Client for REST APIs"
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.description  = "Light API Client (LAClient) is a simple, light-weight client for working with REST-based APIs."
 
-  s.homepage     = "https://github.com/BitBlox"
+  s.homepage     = "https://github.com/BitBlox/LAClient"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,10 +52,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Seth Jordan" => "jordan_seth@bah.com" }
-  # Or just: s.author    = "Seth Jordan"
-  # s.authors            = { "Seth Jordan" => "jordan_seth@bah.com" }
-  # s.social_media_url   = "http://twitter.com/Seth Jordan"
+  s.author             = { "Developer" => "developer@bitblox.io" }
+  # Or just: s.author    = "Developer"
+  # s.authors            = { "Developer" => "developer@bitblox.io" }
+  # s.social_media_url   = "http://twitter.com/bitbloxsoftware"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
