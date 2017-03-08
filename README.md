@@ -2,6 +2,8 @@
 
 The Light API Client (LAClient) is a simple, light-weight client for working with REST-based APIs.
 
+![LAClient](laclient.png)
+
 At it's simplest, it looks like:
 
 ```Objective-C
