@@ -1,8 +1,8 @@
 # LAClient
 
-The Light API Client (LAClient) is a simple, light-weight client for working with REST-based APIs.
+![LAClient](laclient-square.png)
 
-![LAClient](laclient.png)
+The Light API Client (LAClient) is a simple, light-weight client for working with REST-based APIs.
 
 At it's simplest, it looks like:
 
