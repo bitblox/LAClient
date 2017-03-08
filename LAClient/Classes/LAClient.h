@@ -2,7 +2,7 @@
 //  LAClient.h
 //  LightApiClient
 //
-//  See also: https://github.com/SourceGroove/LightAPIClient
+//  See also: https://github.com/BitBlox/LightAPIClient
 //
 //  This client encapsulates all interaction with a REST api.  This client should be initialized with
 //  the appropriate information when the application is launched.
@@ -11,8 +11,8 @@
 //     which will be thrown from API calls when there is either no OAuth token or it is invalid for some
 //     reason.  When this happens, you need to login your user via the loginUser:password:callback: method.
 //
-//  Created by Seth Jordan on 6/13/13.
-//  Copyright (c) 2013 SourceGroove. All rights reserved.
+//  Created by Developer iOS on 6/13/13.
+//  Copyright (c) 2013 BitBlox. All rights reserved.
 //
 #import <Foundation/Foundation.h>
 #import "LAJsonRepresentation.h"

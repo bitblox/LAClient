@@ -4,8 +4,8 @@
 //
 //  Object representing an OAuth token issued by an OAuth server.
 //
-//  Created by Seth Jordan on 6/13/13.
-//  Copyright (c) 2013 SourceGroove. All rights reserved.
+//  Created by Developer iOS on 6/13/13.
+//  Copyright (c) 2013 BitBlox. All rights reserved.
 //
 #import <Foundation/Foundation.h>
 #import "LAJsonRepresentation.h"

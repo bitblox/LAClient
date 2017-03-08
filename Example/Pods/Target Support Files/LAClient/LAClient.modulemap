@@ -1,6 +1,0 @@
-framework module LAClient {
-  umbrella header "LAClient-umbrella.h"
-
-  export *
-  module * { export * }
-}

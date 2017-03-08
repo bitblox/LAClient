@@ -6,7 +6,7 @@ At it's simplest, it looks like:
 
 ```Objective-C
 LAClient *apiClient = [[LAClient alloc] initWithURL:[NSURL URLWithString:@"https://localhost/api"];
-[apiClient getResource:[Person class] 
+[apiClient getResource:[Person class]
 			   atPath:@"person/123"
 			   callback:^(id resource, NSHTTPURLResponse *response, NSError *error) {
 			   Person *person = resource;
@@ -31,7 +31,7 @@ pod 'LAClient', '1.0.0'
 ## Representations
 You can have your classes implement the LARepresentation protocol and map their properties from the raw data returned from the api calls
 
-OR 
+OR
 
 Create representation objects that have the same properties as the JSON representation you'll be getting from your API and have your objects extend LAJsonRepresentation.  This class attempts to deserialize and map json representations being returned from the API to your object model. This works well in most all situations with the exception of Arrays. Without generics in Objective C, we have have no way to know what type of objects you are expecting in your array.  Therefore, if your object has a property that is an array, you'll need to write a custom setter to 'type' the repponse.  Take a look at the example below:
 
@@ -56,8 +56,8 @@ Class:
 @implementation Person
 
 /*
- Because the deserialization process cannot detect what 
- type of object the 'phoneNumber' array consists of, 
+ Because the deserialization process cannot detect what
+ type of object the 'phoneNumber' array consists of,
  you need to tell it how to desearizlize in this way.
  */
 -(void)setPhoneNumbers:(NSArray *)phoneNumbers{
@@ -108,21 +108,21 @@ Setting the security provider on the client, will cause it to use that security 
 ## Make API Calls
 
 ```Objective-C
-apiClient getResourceList:[Person class] 
+apiClient getResourceList:[Person class]
 			   atPath:@"person"
 			   callback:^(id resource, NSHTTPURLResponse *response, NSError *error) {
 			   NSArray *people = resource;
 			   NSLog(@"%d people found", people.count);
 			}];
 
-apiClient getResource:[Person class] 
+apiClient getResource:[Person class]
 			   atPath:@"person/123"
 			   callback:^(id resource, NSHTTPURLResponse *response, NSError *error) {
 			   Person *person = resource;
 			   NSLog(@"Person found: %@", person);
 			}];
-			   
-... 
+
+...
 
 person.favoriteFood = @"Lasagna";
 
@@ -134,8 +134,6 @@ person.favoriteFood = @"Lasagna";
 			  }];
 ```
 
-# TODO	
+# TODO
 
 * Finish demo - find sample api to hit
-
-

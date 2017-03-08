@@ -2,8 +2,8 @@
 //  LAOAuthClient.m
 //  LightAPIClient
 //
-//  Created by Seth Jordan on 7/10/13.
-//  Copyright (c) 2013 SourceGroove. All rights reserved.
+//  Created by Developer iOS on 7/10/13.
+//  Copyright (c) 2013 BitBlox. All rights reserved.
 //
 
 #import "LASimpleOAuthProvider.h"
